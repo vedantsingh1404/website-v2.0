@@ -1,0 +1,69 @@
+---
+layout : default
+---
+<div class="container-head" >
+
+  <h1 class="first-name rellax large" data-rellax-speed = "2">vedant</h1>
+  <h1 class="second-name rellax large" data-rellax-speed = "1">singh</h1>
+  <h3 class="desc">gamer</h3>
+  <h3 class="desc">programmer</h3>
+  <h3 class="desc">innovator</h3>
+
+
+</div>
+
+<div class="profile-container">
+
+  <div class="profile-content rellax" data-rellax-speed="2">
+    <ul class="pro-list">
+      <li class="pro-item">computer science sophomore at IIT hyderabad.</li>
+      <li class="pro-item item-next">love programming and gaming.</li>
+      <li class="pro-item item-next">programming interest lies in deep learning and web development.</li>
+      <!-- <li class="pro-item item-next">i play all genres of games.</li> -->
+    </ul>
+  </div>
+
+  <div class="profile-icon rellax" data-rellax-speed="2">
+    <img src="images/icons8-profile-100.png" alt="" class="profile-image">
+    <h2 class="profile-head large">about me</h2>
+  </div>
+
+</div>
+
+<div class="note-container" data-rellax-speed="2">
+  <div class="note-icon rellax" data-rellax-speed="2">
+    <img src="images/icons8-note-80.png" alt="" class="note-image" >
+    <h2 class="note-head large">notes</h2>
+  </div>
+
+  <div class="note-list-container rellax" data-rellax-speed="5">
+
+    <ul class="note-list">
+      {% for note in site.data.notes limit: 8 %}
+      <li class="note">
+        <time>{{ note.date }}</time>
+        <div>{{ note.content | markdownify }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% if site.data.notes.size > 8 %}
+    <a class="main-link" href="/notes">All notes</a>
+    {% endif %}
+
+
+  </div>
+
+</div>
+
+<div class="contact-container">
+
+<div class="contact-links">
+
+  <h3 class="con-link link-first"><a href="#" class="link-con">github</a></h3>
+  <h3 class="con-link link-next"><a href="#" class="link-con">linkedin</a></h3>
+  <h3 class="con-link link-next"><a href="#" class="link-con">email me</a></h3>
+
+</div>
+
+</div>
