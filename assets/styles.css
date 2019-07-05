@@ -17,7 +17,7 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-  height: 50px;
+  height: 5%;
   /* position: fixed; */
   width: 100%;
   opacity: 0.75;
@@ -25,14 +25,14 @@ body {
 }
 
 .res-title {
-  margin: 10px 10px 0 0;
+  margin: 0.5% 1% 0 0;
   float: right;
 }
 
 .container-head {
   /* position: absolute; */
   /* margin-top: 50px; */
-  height: 900px;
+  height: 95%;
   background-image: url('../images/cool-background.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,8 +41,8 @@ body {
 
 .first-name {
   position: absolute;
-  margin-top: 350px;
-  margin-left: 20px;
+  margin-top: 23%;
+  margin-left: 2%;
 }
 
 .large {
@@ -51,19 +51,19 @@ body {
 
 .second-name {
   position: absolute;
-  margin-top: 420px;
-  margin-left: 20px;
+  margin-top: 27%;
+  margin-left: 2%;
 }
 .desc {
-  margin-top: 510px;
-  margin-left: 20px;
+  margin-top: 33%;
+  margin-left: 2%;
   display: inline-block;
 }
 
 .note-container {
   /* background-color: black; */
   color: black;
-  height: 940px;
+  height: 100%;
   align-items: center;
   background-image: url('../images/con-back.png');
   background-repeat:no-repeat;
@@ -76,7 +76,7 @@ body {
   display: inline-block;
   width: 50%;
   margin-left: 20%;
-  margin-top: 500px;
+  margin-top: 30%;
   /* margin: 20px 20px 20px 20px; */
   /* height: 80%; */
 }
@@ -86,7 +86,7 @@ body {
   /* position: */
   margin-left: 10%;
   margin-top: 10%;
-  margin-top: 600px;
+  margin-top: 35%;
   align-items: center;
 
 
@@ -108,25 +108,31 @@ body {
 
 .contact-container {
   width: 100%;
-  height: 50px;
+  height: 5%;
   background-color: black;
   color: white;
   opacity: 0.7;
-  align-items: center;
+}
+
+.contact-links {
+  margin-left: 40%;
+  width: auto;
+  display: inline-block;
+
 }
 
 .con-link {
-  margin-top: 23px;
+  margin-top: 7%;
   display: inline-block;
   line-height: 0.1em;
 }
 
-.link-first {
+/* .link-first {
   margin-left: 500px;
-}
+} */
 
 .link-next {
-  margin-left: 220px;
+  margin-left: 50px;
 }
 
 .link-con {
@@ -140,7 +146,7 @@ body {
 }
 
 .profile-container {
-  height: 600px;
+  height: 65%;
   background-image: url('../images/note-back.png');
   color: white;
 }
@@ -148,15 +154,15 @@ body {
 .profile-content {
   position: absolute;
   display: inline-block;
-  margin-left: 100px;
-  margin-top: 350px;
+  margin-left: 10%;
+  margin-top: 21%;
 }
 
 .profile-icon {
   position: absolute;
   display: inline-block;
   margin-left: 70%;
-  margin-top: 280px;
+  margin-top: 16%;
 }
 
 .profile-image {
@@ -166,7 +172,7 @@ body {
 }
 
 .item-next {
-  margin-top: 50px;
+  margin-top: 7%;
 }
 
 .pro-item {
