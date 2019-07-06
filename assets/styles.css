@@ -18,10 +18,10 @@ body {
   color: white;
   margin: 0;
   height: 3vw;
-  /* position: fixed; */
+  position: fixed;
   width: 100vw;
-  opacity: 0.75;
-  overflow: scroll;
+  opacity: 0.9;
+  z-index: 2;
 }
 
 .res-title {
@@ -30,13 +30,15 @@ body {
 }
 
 .container-head {
+  /* display: flex; */
   /* position: absolute; */
   /* margin-top: 50px; */
-  height: 55vw;
-  background-image: url('../images/cool-background.svg');
+  height: 56vw;
+  /* background-image: url('../images/cool-background.svg'); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
+  z-index: 1;
 }
 
 .first-name {
@@ -65,10 +67,12 @@ body {
   color: black;
   height: 56vw;
   width: auto;
-  align-items: center;
-  background-image: url('../images/con-back.png');
+  /* align-items: center; */
+  /* background-image: url('../images/con-back.png'); */
   background-repeat:no-repeat;
+  /* background-color: #d3d3d3; */
   background-size: cover;
+  z-index: 1;
 
 }
 
@@ -107,11 +111,12 @@ body {
 }
 
 .contact-container {
+  position: absolute;
   width: 100vw;
   height: 3vw;
   background-color: black;
   color: white;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .contact-links {
@@ -147,10 +152,12 @@ body {
 
 .profile-container {
   height: 35vw;
-  background-image: url('../images/note-back.png');
+  /* background-image: url('../images/pro-back.png'); */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  z-index: 1;
 }
 
 .profile-content {
@@ -196,4 +203,67 @@ a{
 
 .not-bold {
   font-weight: normal;
+}
+
+.note-container-page {
+  width: 60vw;
+  font-size: 1vw;
+  margin: auto;
+}
+
+.note-head-page {
+  /* position: absolute; */
+  margin: 0 0 2.5vw 20vw;
+  padding: 1vw 0 1vw 0;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  position: absolute;
+  display: block;
+  /* background-color: #d3d3d3; */
+  margin-top: 3vw;
+  height: auto;
+  width: 100vw;
+
+}
+
+.note-back {
+  position: absolute;
+  left: 0;
+  height: inherit;
+  z-index: -1;
+}
+
+.note-list {
+  margin-bottom: 0;
+  padding-bottom: 1vw;
+}
+
+.main-back {
+  position: absolute;
+  /* height: 20vw; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 40vw;
+}
+
+.back-link {
+  margin-left: 18vw;
+  margin-top: 0;
+  padding-top: 1vw;
+}
+
+.contact-container-note {
+  position: absolute;
+  margin-bottom: 0;
 }
