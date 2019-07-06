@@ -1,6 +1,6 @@
 body {
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   line-height: 1.8em;
@@ -57,9 +57,21 @@ body {
   margin-left: 2vw;
 }
 .desc {
+  position: absolute;
   margin-top: 35vw;
+  display: block;
+}
+
+.one {
   margin-left: 2vw;
-  display: inline-block;
+}
+
+.two {
+  margin-left: 7vw;
+}
+
+.three {
+  margin-left: 15vw;
 }
 
 .note-container {
@@ -80,7 +92,7 @@ body {
   position: absolute;
   display: inline-block;
   width: 70vw;
-  margin-left: 10vw;
+  margin-left: 28vw;
   margin-top: 13vw;
   /* margin: 20px 20px 20px 20px; */
   /* height: 80%; */
@@ -88,7 +100,7 @@ body {
 
 .note-icon {
   display: inline-block;
-  /* position: */
+  position: absolute;
   margin-left: 10vw;
   margin-top: 30vw;
   align-items: center;
@@ -237,11 +249,12 @@ a{
 }
 
 .note-back {
-  position: absolute;
-  left: 0;
-  height: inherit;
-  z-index: -1;
+  /* position: absolute; */
+  /* top: 0; */
+  /* position: fixed; */
 }
+
+
 
 .note-list {
   margin-bottom: 0;
@@ -249,13 +262,12 @@ a{
 }
 
 .main-back {
-  position: absolute;
+  /* position: absolute; */
   /* height: 20px; */
-  top: 0;
   left: 0;
-  right: 0;
   /* bottom: 40vw; */
   /* z-index: -1; */
+  top: 0;
 }
 
 .back-link {
