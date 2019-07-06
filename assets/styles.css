@@ -43,7 +43,7 @@ body {
 
 .first-name {
   position: absolute;
-  margin-top: 20vw;
+  margin-top: 26vw;
   margin-left: 2vw;
 }
 
@@ -53,11 +53,11 @@ body {
 
 .second-name {
   position: absolute;
-  margin-top: 24vw;
+  margin-top: 30vw;
   margin-left: 2vw;
 }
 .desc {
-  margin-top: 29vw;
+  margin-top: 35vw;
   margin-left: 2vw;
   display: inline-block;
 }
@@ -250,11 +250,12 @@ a{
 
 .main-back {
   position: absolute;
-  /* height: 20vw; */
+  /* height: 20px; */
   top: 0;
   left: 0;
   right: 0;
-  bottom: 40vw;
+  /* bottom: 40vw; */
+  /* z-index: -1; */
 }
 
 .back-link {
