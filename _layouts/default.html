@@ -116,7 +116,44 @@
         selector: '.pro-back',
         color: '#ffffff',
         connectParticles: true,
-        maxParticles: 70
+        maxParticles: 70,
+        responsive : [
+          {
+            breakpoint: 1200,
+            options: {
+              maxParticles : 60
+            }
+          }, {
+            breakpoint: 1000,
+            options: {
+              maxParticles: 50
+            }
+          }, {
+            breakpoint: 800,
+            options: {
+              maxParticles: 80,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 600,
+            options: {
+              maxParticles: 70,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 400,
+            options: {
+              maxParticles: 60,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 200,
+            options: {
+              maxParticles: 50,
+              connectParticles: false
+            }
+          }
+        ]
 
       });
 
@@ -124,7 +161,44 @@
         selector: '.note-back',
         color: '#7f7f7f',
         connectParticles: true,
-        maxParticles: 100
+        maxParticles: 100,
+        responsive : [
+          {
+            breakpoint: 1200,
+            options: {
+              maxParticles : 80
+            }
+          }, {
+            breakpoint: 1000,
+            options: {
+              maxParticles: 60
+            }
+          }, {
+            breakpoint: 800,
+            options: {
+              maxParticles: 70,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 600,
+            options: {
+              maxParticles: 60,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 400,
+            options: {
+              maxParticles: 50,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 200,
+            options: {
+              maxParticles: 40,
+              connectParticles: false
+            }
+          }
+        ]
       });
 
 
@@ -135,7 +209,43 @@
         color: '#000000',
         maxParticles: 150,
         speed: 0.3,
-        connectParticles: true
+        connectParticles: true,
+        responsive : [
+          {
+            breakpoint: 1200,
+            options: {
+              maxParticles : 100
+            }
+          }, {
+            breakpoint: 1000,
+            options: {
+              maxParticles: 80
+            }
+          }, {
+            breakpoint: 800,
+            options: {
+              maxParticles: 60
+            }
+          }, {
+            breakpoint: 600,
+            options: {
+              maxParticles: 80,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 400,
+            options: {
+              maxParticles: 60,
+              connectParticles: false
+            }
+          }, {
+            breakpoint: 200,
+            options: {
+              maxParticles: 50,
+              connectParticles: false
+            }
+          }
+        ]
 
       });
   </script>
