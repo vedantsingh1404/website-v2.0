@@ -43,8 +43,12 @@ body {
 
 .first-name {
   position: absolute;
-  margin-top: 26vw;
+  margin-top: 24vw;
   margin-left: 2vw;
+}
+
+.large2 {
+  font-size: 6vw;
 }
 
 .large {
@@ -58,8 +62,20 @@ body {
 }
 .desc {
   position: absolute;
-  margin-top: 35vw;
+  margin-top: 37vw;
   display: block;
+  font-size: 3vw;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .one {
@@ -248,11 +264,11 @@ a{
 
 }
 
-.note-back {
-  /* position: absolute; */
-  /* top: 0; */
-  /* position: fixed; */
-}
+/* .note-back {
+  position: absolute;
+  top: 0;
+  position: fixed;
+} */
 
 
 
