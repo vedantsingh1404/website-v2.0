@@ -2,6 +2,10 @@
 
 var rellax = new Rellax('.rellax');
 
+//particlesJS.load('particle', './particles1.json', function() {
+  //console.log('callback - particles.js config loaded');
+//});
+
 var particles2 = Particles.init({
   selector: '.pro-back',
   color: '#ffffff',
