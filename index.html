@@ -41,7 +41,7 @@ layout : default
   <div class="note-list-container rellax" data-rellax-speed="2">
 
     <ul class="note-list">
-      {% for note in site.data.notes limit: 9 %}
+      {% for note in site.data.notes limit: 8 %}
       <li class="note">
         <time>{{ note.date }}</time>
         <div>{{ note.content | markdownify }}</div>
@@ -49,7 +49,7 @@ layout : default
       {% endfor %}
     </ul>
 
-    {% if site.data.notes.size > 9 %}
+    {% if site.data.notes.size > 8 %}
     <h3><a class="main-link" href="/notes">view all notes</a></h3>
     {% endif %}
 
