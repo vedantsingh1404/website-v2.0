@@ -26,7 +26,7 @@ body {
 
 .res-title {
   margin: 0.5vw 1vw 0 0;
-  float: right;
+  /*float: right;*/
 }
 
 .container-head {
